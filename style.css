@@ -1,7 +1,13 @@
+body {
+    text-align: center;
+}
+
+
 #profilepic {
     width: 150px;
-    margin: 10px 0px;
+    margin: 10px 0px 10px 0px;
     display: inline-block;
+    border-radius: 100px;
 }
 
 .intern-links {
@@ -20,6 +26,6 @@ img:target{
     transition: border 2s;
 }
 section:target {
-    background-color: rgb(255, 239, 196);
+    background-color: rgb(255, 239, 196); 
     transition: background-color 1s;
 }
